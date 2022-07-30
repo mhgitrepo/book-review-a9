@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
-function NavLink({ children, to, ...props }) {
+function NavigationLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
     let match = useMatch({ path: resolved.pathname, end: true });
   
@@ -18,4 +18,4 @@ function NavLink({ children, to, ...props }) {
     );
   }
 
-export default NavLink;
+export default NavigationLink;

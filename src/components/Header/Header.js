@@ -1,11 +1,15 @@
 import React from 'react';
-import './Header.css';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div>
-            
-        </div>
+        <nav className='flex justify-center gap-x-12 py-6 text-xl'>
+            <CustomLink to='/'>Home</CustomLink>
+            <CustomLink to='/reviews'>Reviews</CustomLink>
+            <CustomLink to='/dashboard'>Dashboard</CustomLink>
+            <CustomLink to='/blogs'>Blogs</CustomLink>
+            <CustomLink to='/about'>About</CustomLink>
+        </nav>
     );
 };
 

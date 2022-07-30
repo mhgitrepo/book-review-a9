@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 74958,
+        "name" : "Lydia Porter",
+        "reviewText" : "It talks about those people who have decided to sacrifice their life for the sake of poor people and their rights. The    revolutionaries and their activities to spread awareness of socialism among the masses.",
+        "rating" : "⭐⭐⭐⭐⭐",
+        "image" : "https://randomuser.me/api/portraits/women/54.jpg",
+        "location": "Freeport, TX"
+    },
+    {
+        "id" : 723296,
+        "name" : "Jane Perry",
+        "reviewText" : "If you link it with the death of JNU president Chandrasekhar who told his mother to struggle like the Mother in Maxim Gorky Novel... Then this will be the best thing to read.",
+        "rating" : "⭐⭐⭐⭐",
+        "image" : "https://randomuser.me/api/portraits/women/23.jpg",
+        "location": "Prosser, WA"
+    },
+    {
+        "id" : 840326,
+        "name" : "Leo Steeves",
+        "reviewText" : "The context is relevant in nowadays. Exploiting the human life with greedy mind can see everywhere.The working people are always suppressed by the authority or by political people.",
+        "rating" : "⭐⭐⭐⭐⭐",
+        "image" : "https://randomuser.me/api/portraits/men/61.jpg",
+        "location": "Jacksonville, FL"
+    },
+    {
+        "id" : 169243,
+        "name" : "Edna Pearson",
+        "reviewText" : "Excellent work. Touched the acts of revolution with delicate description even an ordinary person can understand.",
+        "rating" : "⭐⭐⭐⭐⭐",
+        "image" : "https://randomuser.me/api/portraits/women/44.jpg",
+        "location": "Los Angeles, CA"
+    },
+    {
+        "id" : 4695326,
+        "name" : "Erin Parker",
+        "reviewText" : "Beautifully written.a mother's story who takes on her  son's struggle.gives you a glimpse of the working-class  revolution and the real ideas behind communism.loved it. Everyone should read it.",
+        "rating" : "⭐⭐⭐⭐⭐",
+        "image" : "https://randomuser.me/api/portraits/women/46.jpg",
+        "location": "Milwaukee, WI"
+    },
+    {
+        "id" : 6254163,
+        "name" : "Jerome Sims",
+        "reviewText" : "I loved it! The story of a mother and her sacrifices and how she continued to work and support her son this all touched my heart!",
+        "rating" : "⭐⭐⭐⭐⭐",
+        "image" : "https://randomuser.me/api/portraits/women/46.jpg",
+        "location": "Lake Gogebic, MI"
+    }
+]
