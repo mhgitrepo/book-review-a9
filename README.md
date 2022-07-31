@@ -3,7 +3,7 @@
 ## Project Live Url: https://product-analysis-assignment-09.netlify.app/.
 
 
-### What I have covered with this project:
+### What I have covered within this project:
 
 * React Context API;
 * React Router with Active Link;
