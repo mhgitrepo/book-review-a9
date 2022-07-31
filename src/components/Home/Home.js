@@ -3,6 +3,7 @@ import './Home.css';
 import BookReading from '../../image/book-reading.gif';
 import useReviewData from '../../hooks/useReviewData';
 import Reviews from '../Reviews/Reviews';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Home = () => {
     const [reviews] = useReviewData();
@@ -20,15 +21,18 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-20 mb-10'>
-                <h3 className='text-3xl font-bold text-center'>Customer reviews ({reviews.length})</h3>
+                <h3 className='text-3xl font-bold text-center'>Customer reviews ({reviews.slice(0, 3).length})</h3>
                 <div className='grid grid-cols-3 justify-items-center'>
-                {
-                   reviews.slice(0, 3).map(review => <Reviews 
-                    key = {review.id}
-                    review = {review}
-                   ></Reviews>) 
-                }
+                    {
+                    reviews.slice(0, 3).map(review => <Reviews 
+                        key = {review.id}
+                        review = {review}
+                    ></Reviews>) 
+                    }
+                </div>
             </div>
+            <div className='mt-20 mb-10 text-2xl font-bold text-center'>
+                <CustomLink to='/reviews' className="border rounded-lg px-8 py-1">See All Reviews</CustomLink>
             </div>
         </div>
     );
