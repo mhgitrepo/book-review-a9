@@ -1,10 +1,10 @@
 import React from 'react';
-import './About.css';
+import AboutImage from '../../image/about.svg';
 
 const About = () => {
     return (
-        <div>
-            <h2>This is About</h2>
+        <div className='mx-auto min-h-screen mt-10'>
+            <img className='w-8/12 mx-auto' src={AboutImage} alt="about" />
         </div>
     );
 };
